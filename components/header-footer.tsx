@@ -88,6 +88,10 @@ export function Header(){
 
 export function Footer(){
     return(
-        <footer ><p>FOOTER</p></footer>
+        <footer className='relative z-10 p-4'>
+           <p className="text-xs font-normal leading-7 text-center text-grey-700">
+            2023 Najeeb Puthiyapattillath. All rights reserved.
+          </p>       
+        </footer>
     );
 }
